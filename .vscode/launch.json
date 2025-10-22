@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Weather Demo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo/weather/client.py",
+      "python": "${workspaceFolder}/demo/weather/.venv/Scripts/python.exe",
+      "args": [
+        "${workspaceFolder}/demo/weather/weather.py"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/demo/weather"
+    }
+    
+  ]
+}

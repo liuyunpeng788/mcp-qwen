@@ -1,0 +1,1 @@
+# 使用的时候需要将.env文件中的DASHSCOPE_API_KEY替换为自己的

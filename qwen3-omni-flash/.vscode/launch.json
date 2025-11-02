@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Qwen3-Omni-Flash Demo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\qwen3-omni-flash\\app.py",
+      "python": "${workspaceFolder}\\qwen3-omni-flash\\.venv\\Scripts\\python.exe",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}\\qwen3-omni-flash",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}\\qwen3-omni-flash"
+      }
+    },
+    // {
+    //   "name": "Python Debugger: Chat Demo",
+    //   "type": "debugpy",
+    //   "request": "launch",
+    //   "program": "${workspaceFolder}\\qwen3-omni-flash\\chat.py",
+    //   "python": "${workspaceFolder}\\qwen3-omni-flash\\.venv\\Scripts\\python.exe",
+    //   "console": "integratedTerminal",
+    //   "cwd": "${workspaceFolder}\\qwen3-omni-flash"
+    // },
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "python": "${workspaceFolder}\\qwen3-omni-flash\\.venv\\Scripts\\python.exe",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}\\qwen3-omni-flash"
+    }
+  ]
+}
